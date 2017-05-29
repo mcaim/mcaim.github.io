@@ -2,7 +2,7 @@
 <!Doctype html>
 <html>
 <head>
-	<title>Aidan's Home Page</title>
+	<title>Contact Page</title>
 	<script
   src="https://code.jquery.com/jquery-3.1.1.js"
   integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
@@ -61,19 +61,24 @@
       </div>
 
     		<div class="profile">
-				<img src="selfie2.jpg" class="prof-pic">
-				<h1>Aidan McRitchie</h1>
-				<h5>Undergraduate Student | Computer Science Major</h5>
-		
-				<div class="linebreak"></div>
-				<p>Learning Java, HTML, CSS, Javascript, and Python. <br>Semi-proficient in C++.</p>
+				
+				<h1>Contact</h1>
 
-				<div class="social">
-					<a href="https://www.facebook.com/aidan.mcritchie12" target="_blank"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
-					<i class="fa fa-twitter-square" aria-hidden="true"></i>
-					<i class="fa fa-google-plus" aria-hidden="true"></i>
-					<i class="fa fa-github" aria-hidden="true"></i>
-				</div>
+				<form action="contact.php" method="post">
+        			<p>Your Name*:</p>
+        				<input type="text"  size="50" align="left" name="cf_name">
+        			<p>Email*:</p>
+        				<input type="email" size="50" name="cf_email"><br>
+        			<p>Phone:</p>
+        				<input type="tel" size="50" name="cf_phone"><br>
+        			<p>Reason for contact:</p>
+        				<textarea name="cf_message" rows="4" cols="50"></textarea>
+        					<br>
+        					<br>
+        				<input type="submit" value="Send">
+        				<input type="reset" value="Clear">
+      			</form>
+				<p>sdljflasjflkjfl dasl;f al ldasjfla ldjf a</p>
 			</div>
 		
 
