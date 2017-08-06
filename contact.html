@@ -64,7 +64,7 @@
 				
 				<h1>Contact Me</h1>
 
-				<form action="contact.php" method="post">
+				<!--<form action="contact.php" method="post">
         			<p>Your Name*:</p>
         				<input type="text"  size="50" align="left" name="cf_name">
         			<p>Email*:</p>
@@ -77,8 +77,27 @@
         					<br>
         				<input type="submit" value="Send">
         				<input type="reset" value="Clear">
-      			</form>
-      			<p> * = required </p>
+      			</form>-->
+
+            <form action="https://getsimpleform.com/messages?form_api_token=bcae8691ed12417450ab78ab31ef7361" method="post">
+            <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
+              <input type='hidden' name='redirect_to' value='<the complete return url e.g. http://fooey.com/thank-you.html>' />
+            <!-- all your input fields here.... -->
+              <label for='name'>Name</label>
+              <br />
+              <input type='text' id='name' name='name' placeholder='Your Name' />
+              <br />
+              <label for='email'>Email</label>
+              <br />
+              <input type='text' id='email' name='email' placeholder='Your Email' />
+              <br />
+              <label for='email'>Message</label>
+              <br />
+              <textarea id='message' name='message' placeholder='Message' rows='8' cols='50'></textarea>
+              <br />
+              <input type='submit' value='Submit' /
+            </form>
+      			<!--<p> * = required </p>-->
 			</div>
 		
 
