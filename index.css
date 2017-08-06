@@ -17,9 +17,7 @@ width: 180px;
 }
 
 
-html { 
-
-  /*background: url('https://unsplash.it/3000/3000/?random') no-repeat center center fixed;*/ 
+html {  
   background: url('darkmountainbackground.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
