@@ -48,9 +48,9 @@ p {
   border-spacing: auto;
 }
 
-.social a {
+/*.social a {
 	color: white;
-}
+}*/
 
 .social a.visited, .social a.hover {
   color: blue;
@@ -154,10 +154,6 @@ body {
 
 .icon-menu i {
   margin-right: 5px;
-}
-
-a { 
-  color: white;
 }
 
 a.visited, a.hover {
