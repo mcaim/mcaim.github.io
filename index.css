@@ -52,6 +52,10 @@ p {
 	color: white;
 }
 
+.social a.visited, .social a.hover {
+  color: blue;
+}
+
 .linebreak {
 	width: 335px;
 	border-top: 1px solid white;
