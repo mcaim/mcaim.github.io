@@ -52,7 +52,7 @@ p {
 	color: auto;
 }
 
-.social a.visited, .social a.hover {
+.social a.hover {
   color: blue;
 }
 
@@ -156,6 +156,6 @@ body {
   margin-right: 5px;
 }
 
-a:visited, a:hover {
+a:hover {
   color: blue;
 }
