@@ -48,9 +48,9 @@ p {
   border-spacing: auto;
 }
 
-/*.social a {
-	color: white;
-}*/
+.social a {
+	color: auto;
+}
 
 .social a.visited, .social a.hover {
   color: blue;
@@ -156,6 +156,6 @@ body {
   margin-right: 5px;
 }
 
-a.visited, a.hover {
+a:visited, a:hover {
   color: blue;
 }
