@@ -151,3 +151,11 @@ body {
 .icon-menu i {
   margin-right: 5px;
 }
+
+a { 
+  color: white;
+}
+
+a.visited, a.hover {
+  color: blue;
+}
